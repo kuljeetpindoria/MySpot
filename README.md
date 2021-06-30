@@ -1,5 +1,5 @@
 # MySpot
-This app was created to make the process of booking parking spots on mobile phones as simple as possible for consumers.
+This app is created to make the process of booking parking spots on mobile phones as simple as possible for consumers.
 
 
    Main Features :
