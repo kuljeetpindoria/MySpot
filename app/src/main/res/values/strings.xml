@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Spot</string>
+    <string name="invalid_name">Enter Valid Name</string>
+    <string name="invalid_Duaration">Enter Valid Duration</string>
+    <string name="invalid_Mobile_Number">Enter Valid Mobile Number</string>
+    <string name="invalid_Car_Number">Enter Valid Car Number</string>
+</resources>
