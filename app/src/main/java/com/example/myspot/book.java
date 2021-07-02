@@ -62,8 +62,13 @@ public class book extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if(awesomeValidation.validate()){
+                    String name = sName.getEditText().toString();
+                    String car = carNo.getEditText().toString();
+                    String time = duration.getEditText().toString();
                     Intent intent = new Intent(book.this,Spot.class);
-
+                    intent.putExtra("NAME", String.valueOf(sName));
+                    intent.putExtra("CAR", String.valueOf(carNo));
+                    intent.putExtra("TIME", String.valueOf(duration));
                     startActivity(intent);
                 }else{
                     Toast.makeText(getApplicationContext(),"Input Not Valid",Toast.LENGTH_SHORT).show();

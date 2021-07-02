@@ -18,7 +18,7 @@ import org.json.JSONObject;
 
 public class Spot extends AppCompatActivity implements PaymentResultListener {
     Button pay;
-    TextView textView5;
+    TextView textView5, textView, textView2, textView3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +26,13 @@ public class Spot extends AppCompatActivity implements PaymentResultListener {
         setContentView(R.layout.activity_spot);
         
         pay = findViewById(R.id.pay);
+        textView = findViewById(R.id.textView);
+        textView2 = findViewById(R.id.textView2);
+        textView3 = findViewById(R.id.textView3);
+
+        textView.setText(getIntent().getStringExtra("NAME"));
+        textView2.setText(getIntent().getStringExtra("CAR"));
+        textView3.setText(getIntent().getStringExtra("TIME"));
 
         String total = "100";
 
