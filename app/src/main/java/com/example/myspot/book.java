@@ -66,9 +66,9 @@ public class book extends AppCompatActivity {
                     String car = carNo.getEditText().toString();
                     String time = duration.getEditText().toString();
                     Intent intent = new Intent(book.this,Spot.class);
-                    intent.putExtra("NAME", String.valueOf(sName));
-                    intent.putExtra("CAR", String.valueOf(carNo));
-                    intent.putExtra("TIME", String.valueOf(duration));
+                    intent.putExtra("NAME", name);
+                    intent.putExtra("CAR", car);
+                    intent.putExtra("TIME", time);
                     startActivity(intent);
                 }else{
                     Toast.makeText(getApplicationContext(),"Input Not Valid",Toast.LENGTH_SHORT).show();

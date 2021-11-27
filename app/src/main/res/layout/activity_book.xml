@@ -8,16 +8,15 @@
     android:padding="100dp"
     tools:context=".book">
 
-
-
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
         android:layout_gravity="center"
         android:layout_marginTop="5dp"
         android:layout_marginBottom="10dp"
-        android:text="Book Your Spot"
-        android:textSize="30dp"
+        android:text="@string/book_your_spot"
+        android:textColor="@color/black"
+        android:textSize="30sp"
         android:textStyle="bold" />
 
     <LinearLayout
@@ -32,7 +31,7 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Full Name"
+            android:hint="@string/full_name"
             app:counterTextColor="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -46,7 +45,7 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Mobile Number"
+            android:hint="@string/mobile_number"
             app:counterTextColor="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -60,7 +59,7 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Car Number"
+            android:hint="@string/car_number"
             app:counterTextColor="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -74,7 +73,7 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Duration"
+            android:hint="@string/duration"
             app:counterTextColor="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -91,7 +90,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#000000"
-        android:text="Submit"
+        android:text="@string/submit"
         android:textColor="@color/white" />
 
     <Button
@@ -100,7 +99,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:background="#000000"
-        android:text="Log Out"
+        android:text="@string/log_out"
         android:textColor="@color/white" />
 
 
